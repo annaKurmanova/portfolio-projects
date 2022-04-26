@@ -1,0 +1,38 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.cards-container {
+  background: steelblue;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fefefe;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 0.3em;
+  border: 1px solid;
+  margin: 10px;
+}
+.card div {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
+}
