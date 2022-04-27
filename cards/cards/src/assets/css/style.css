@@ -17,6 +17,10 @@ li {
   flex-wrap: wrap;
 }
 
+.search {
+  width: 100%;
+}
+
 .card {
   background: #fefefe;
   max-width: 250px;
