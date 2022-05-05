@@ -1,0 +1,25 @@
+.date {
+  border-top: 2px solid rgba(0,0,0,.2);
+  cursor: pointer;
+  min-width: 150px;
+  min-height: 200px;
+  padding: 5px 10px;
+  color: rgba(0,0,0,.7);;
+
+}
+
+.date.active {
+  border-top: 2px solid steelblue;
+  background-color: rgba(70,130,180,.2);
+}
+.dateNumber {
+  font-size: 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.date.active .dateNumber {
+  color: steelblue;
+}
