@@ -1,0 +1,39 @@
+.dropdown {
+  background: #fff;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.dropdown img {
+  max-width: 200px;
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.dropdown-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 780px;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.dropdown .cat-block {
+  padding: 10px;
+  min-width: 250px;
+  width: auto;
+  margin: 5px;
+}
+
+.dropdown .cat-block h3 {
+  color: #393952;
+}

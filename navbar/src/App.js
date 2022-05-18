@@ -1,4 +1,5 @@
 import './App.css';
+import './assets/styles/Media.css'
 import Menu from './components/Menu';
 
 function App() {

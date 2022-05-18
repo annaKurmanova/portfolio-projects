@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .dropdown .cat-block {
+    width: 100%;
+  }
+}

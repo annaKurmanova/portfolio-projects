@@ -1,0 +1,28 @@
+.bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.bottom-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 780px;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bottom-bar ul li {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.bottom-bar ul li a {
+  color: #000;
+  transition: all 0.4s ease;
+}
+.bottom-bar ul li a:hover {
+  color: #393952;
+}
