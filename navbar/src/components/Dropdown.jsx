@@ -4,8 +4,8 @@ import headphones from '../assets/images/jewl.svg';
 
 
 const Dropdown = () => {
-  const [categories, setCategory] = useState('');
-  const [products, setProducts] = useState('');
+  const [categories, setCategory] = useState('Category Name');
+  const [products, setProducts] = useState('Product Name');
 
 
   const menuItems = [
@@ -20,63 +20,66 @@ const Dropdown = () => {
   ]
 
 
-  console.log(menuItems)
+
+
+
+
   return (
     <div className="dropdown">
       <img src={headphones} />
       <div className="dropdown-inner">
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}e</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
         <div className="cat-block">
-          <h3 className="cat-name">Category Name</h3>
+          <h3 className="cat-name">{categories}</h3>
           <ul className="products">
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
-            <li>Product Name</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
+            <li>{products}</li>
           </ul>
         </div>
       </div>
