@@ -1,10 +1,10 @@
-
+import Post from './components/Post';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      hello
+    <div className="posts">
+      <Post/>
     </div>
   );
 }
