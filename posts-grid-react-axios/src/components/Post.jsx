@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-
-const jsonURL = "https://jsonplaceholder.typicode.com/posts/";
-
 const Post = () => {
   const [posts, setPost] = useState([]);
 
+
   useEffect(() => {
-    axios.get(jsonURL).then((res) => {
+    axios.get('https://jsonplaceholder.typicode.com/posts/').then((res) => {
       setPost(res.data)
-      console.log(res)
     });
   }, []);
+
 
   return (
     <>
